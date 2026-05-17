@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>umfgcloud.loja.webapi</name>
+    </assembly>
+    <members>
+        <member name="T:umfgcloud.loja.webapi.Controllers.HelthcheckController">
+            <summary>
+            endpoint(s) de verificação de saúde da API
+            </summary>
+        </member>
+        <member name="M:umfgcloud.loja.webapi.Controllers.HelthcheckController.Ping">
+            <summary>
+            verifica o estado de saúde da API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:umfgcloud.loja.webapi.Controllers.SigninController.AutenticarAsync(umfgcloud.loja.dominio.service.DTO.UsuarioDTO.SingInRequest)">
+            <summary>
+            Efetua o login do usuário
+            Aula 27/04/2026 conceito de refatoração:
+                Alterar os atributos internos do código sem alterar o seu comportamento
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:umfgcloud.loja.webapi.Controllers.SingupController">
+            <summary>
+            endpoint(s) para cadastrar um usuário
+            </summary>
+        </member>
+        <member name="M:umfgcloud.loja.webapi.Controllers.SingupController.SingupAsync(umfgcloud.loja.dominio.service.DTO.UsuarioDTO.SingUpRequest)">
+            <summary>
+            Cadastra um usuário
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:umfgcloud.loja.webapi.Extensions.ServicosExtensions">
+            <summary>
+            Define quais as implementações para as interfaces
+            criadas ou importadas na solução
+            </summary>
+        </member>
+    </members>
+</doc>
